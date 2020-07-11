@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+height: 40px;
+background-color:#1689B4 ;
+
+}
+
+
+body{
+    background-color:pink;
+}
+
+nav ul{
+display: inline-block;
+text-align: right;
+margin-top: 12px;
+}
+nav li{
+    display: inline-block;
+    text-align: right;
+}
+
+nav a{
+    text-align: right;
+    margin-left: 50px;
+    color:white;
+
+
+}
+
+
+body>div{
+display: flex;
+margin-top: 50px;
+}
+
+#img img{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#img h1{
+    text-align: center;
+    justify-items: center;
+    margin: 40px;
+}
+
+.container{
+   width: 100px;
+   margin-left:300px;
+   
+}
+
+.Creencias img{
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
