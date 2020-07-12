@@ -1,67 +1,191 @@
 *{
-    margin: 0px;
-    padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
+/*imagen del header*/
+.header img{
+	width:200px;
+	height: auto;
+	margin-top: -40px;
+	margin-left: -5px;
+	pointer-events: stroke;
+}
+/*imagen del header*/
 
-header{
-height: 40px;
-background-color:#1689B4 ;
 
+.header{
+
+ height: 80px;
+background-color:#26A4D3;
+display: grid;
+grid-template-columns: 50% 50%;
 }
 
+.header p{
+color:white;
+margin-top: 20px;
+text-align: right;
+margin-right: 10px;
+font-size: 25px;
+font-family: cursive;
+}
+header:hover{
+	border: yellowgreen solid 3px;
+	
+}
 
 body{
-    background-color:pink;
+background-color: 	#2EE0BD;
 }
 
-nav ul{
-display: inline-block;
-text-align: right;
-margin-top: 12px;
-}
-nav li{
-    display: inline-block;
-    text-align: right;
-}
-
-nav a{
-    text-align: right;
-    margin-left: 50px;
-    color:white;
-
-
+.Creencias{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 25px;
 }
 
 
-body>div{
-display: flex;
-margin-top: 50px;
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	justify-content: center;
+padding: 25px;
+
+
+color:black;
+
+grid-row-gap: 2em;
+border-collapse: collapse black solid 1px;
+margin: 100px;
 }
 
-#img img{
-    width: 100px;
-    height: auto;
-    margin-left: 20px;
-    margin-top: 5px;
+
+.container div img {
+	width: 330px;
+	border: solid 5px black;
+height: 200px;
+margin: 5px;
 }
 
-#img h1{
-    text-align: center;
-    justify-items: center;
-    margin: 40px;
+.container h1{
+	margin-left: 60px;
+	color:black;
+}
+
+.container p{
+	margin: 3px;
+	color:black;
+}
+
+.container div img:hover {
+	border: solid yellow 3px;
+
+}
+.foter{
+	background-color: skyblue;
+	display: grid;
+	grid-template-columns: 100%;
+	height: 35px;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-family: cursive;
+	margin-top:10px;
+}
+
+
+.foter p{
+
+	font-size: 25px;
+    
+}
+
+@media(max-width:1350px) and  (min-width:300px){
+container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+@media(max-width: 1250px) and (min-width: 295px){
+	.container{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin: 3px;
+	}
+	
+.container div img:hover {
+	border: solid yellow 3px;
+
+}
+
+@media(max-width:1024px) and  (min-width:300px){
+
+	.container div img{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin: 3px;
+		width: 320px;
+	}
+	.header p{
+		text-align: center;
+		margin-top: 1px;
+	}
+}
+
+}
+@media(max-width: 953px) and (min-width: 300px){
+.header p{
+display: grid;
+grid-template-columns: 100%;
+text-align: center;
+font-size: 18px;
+
+}
+
+.container div img:hover {
+	border: solid yellow 3px;
+
 }
 
 .container{
-   width: 100px;
-   margin-left:300px;
-   
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+}
+}
+@media(max-width: 644px) and (min-width: 300px){
+
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr;
+
 }
 
-.Creencias img{
-    width: 500px;
-    text-align: center;
-    margin-top: 10px;
+
+.header img{
+	display: grid;
+	grid-template-columns: 50% 50%;
+margin-left:0px;
+animation-name: rotate;
+animation-duration: 10s;
+	}
+	.header p{
+		display: grid;
+		grid-template-columns: 1fr;
+		color: black;
+		margin-top: -150px;
+		margin-left: 100px;
+			}
 }
 
+@keyframes rotate{
+	from{
+opacity: 0;
+	}
+to{
+opacity: 1;
+}
+	
+}
 

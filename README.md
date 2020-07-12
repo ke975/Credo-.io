@@ -1,2 +1,0 @@
-# Credo-.io
- Credo personal
