@@ -188,9 +188,9 @@ font-size: 18px;
 
 }
 
-.header p{
+.header {
 display: grid;
-grid-template-columns: 90%;
+grid-template-columns: 100%;
 text-align: center;
 
 font-size: 18px;
@@ -203,6 +203,8 @@ font-size: 18px;
 		grid-template-columns: 1fr;
 	
 	}
+
+
 	
 	.container div img{
 		display: grid;
@@ -219,9 +221,9 @@ font-size: 18px;
 	
 	}
 	
-	.header p{
+	.header {
 	display: grid;
-	grid-template-columns: 100%;
+   grid-template-columns: 100%;
 	text-align: center;
 	
 	font-size: 15px;
