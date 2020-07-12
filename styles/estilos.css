@@ -163,6 +163,17 @@ font-size: 18px;
 }
 
 
+}
+@media(max-width: 524px) and (min-width: 300px){
+
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr;
+
+}
+
+
 .header img{
 	display: grid;
 	grid-template-columns: 50% 50%;
