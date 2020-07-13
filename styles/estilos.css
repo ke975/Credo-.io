@@ -4,36 +4,7 @@
 }
 
 /*imagen del header*/
-.header img{
-	width:200px;
-	height: auto;
-	margin-top: -40px;
-	margin-left: -5px;
-	pointer-events: stroke;
-}
-/*imagen del header*/
 
-
-.header{
-
- height: 80px;
-background-color:#26A4D3;
-display: grid;
-grid-template-columns: 50% 50%;
-}
-
-.header p{
-color:white;
-margin-top: 20px;
-text-align: right;
-margin-right: 10px;
-font-size: 25px;
-font-family: cursive;
-}
-header:hover{
-	border: yellowgreen solid 3px;
-	
-}
 
 body{
 background-color: 	#2EE0BD;
@@ -124,15 +95,33 @@ container{
 	.container div img{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		margin: 3px;
+		margin: 4px;
 		width: 320px;
 	}
-	.header p{
-		text-align: center;
-		margin-top: 1px;
+	.container p{
+		text-align: left;
+		margin: 8px;
+		font-size: 18px;
 	}
 }
 
+
+}
+
+@media(max-width:768px) and  (min-width:300px){
+
+	.container div img{
+		display: grid;
+		grid-template-columns: 1fr  1fr;
+		margin: 4px;
+		width: 350px;
+	}
+
+	.container p{
+		text-align:justify;
+		margin: 10px;
+	
+	}
 }
 @media(max-width: 953px) and (min-width: 300px){
 .header p{
@@ -177,25 +166,18 @@ font-size: 18px;
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: 0px;
-	width: 280px;
+	width: 300px;
 }
 
 .container p{
- margin: 3px;	
+ margin: 1px;	
  text-align: left;
- font-size: 15px;
+ font-size: 13px;
 
 
 }
 
-.header {
-display: grid;
-grid-template-columns: 100%;
-text-align: center;
 
-font-size: 18px;
-
-}
 
 @media(max-width: 320px) and (min-width: 300px){
 	.container{
@@ -204,7 +186,9 @@ font-size: 18px;
 	
 	}
 
-
+body nav{
+	width: 100%;
+}
 	
 	.container div img{
 		display: grid;
@@ -221,39 +205,7 @@ font-size: 18px;
 	
 	}
 	
-	.header {
-	display: grid;
-   grid-template-columns: 100%;
-	text-align: center;
-	
-	font-size: 15px;
-	
-	}
+
 }
 
-.header img{
-	display: grid;
-	grid-template-columns: 50% 50%;
-margin-left:0px;
-animation-name: rotate;
-animation-duration: 10s;
-	}
-	.header p{
-		display: grid;
-		grid-template-columns: 1fr;
-		color: black;
-		margin-top: -150px;
-		margin-left: 100px;
-			}
-}
-
-@keyframes rotate{
-	from{
-opacity: 0;
-	}
-to{
-opacity: 1;
-}
-	
-}
 
