@@ -7,7 +7,29 @@
 
 
 body{
-background-color: 	#2EE0BD;
+
+	
+background-color: #1DE9B6	;
+}
+
+.titulo{
+	width: 100%;
+}
+
+.titulo h1{
+text-align: justify;
+  margin-top: 20px;
+  margin-left: 360px;
+display: inline-block;
+
+margin-bottom: 5px;
+}
+
+.titulo img{
+	max-width: 100%;
+	width: 200px;	
+
+	margin-left: 500px;
 }
 
 .Creencias{
@@ -92,6 +114,29 @@ container{
 
 @media(max-width:1024px) and  (min-width:300px){
 
+.titulo{
+	width:100%;
+	display: inline-block;
+}
+	
+	.titulo h1{
+	text-align: left;
+	  margin-top: 20px;
+	  margin-left: 300px;
+	display: inline-block;
+	
+	margin-bottom: 5px;
+	}
+	
+	.titulo img{
+	
+		width: 200px;	
+	
+		margin-left: 390px;
+	}
+
+
+
 	.container div img{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -109,6 +154,28 @@ container{
 }
 
 @media(max-width:768px) and  (min-width:300px){
+
+	.titulo{
+		width:100%;
+		display: inline-block;
+	}
+		
+		.titulo h1{
+		text-align: left;
+		  margin-top: 20px;
+		  margin-left: 200px;
+		display: inline-block;
+		
+		margin-bottom: 5px;
+		}
+		
+		.titulo img{
+		
+			width: 200px;	
+		
+			margin-left: 300px;
+		}
+
 
 	.container div img{
 		display: grid;
@@ -156,6 +223,27 @@ font-size: 18px;
 @media(max-width: 360px) and (min-width: 300px){
 
 
+
+	.titulo{
+		width:100%;
+		display: inline-block;
+	}
+		
+		.titulo h1{
+		text-align: center;
+		  margin-top: 20px;
+		  margin-left: 40px;
+		display: inline-block;
+		
+		margin-bottom: 5px;
+		}
+		
+		.titulo img{
+		
+			width: 200px;	
+		
+			margin-left: 100px;
+		}
 .container{
 	display: grid;
 	grid-template-columns: 1fr;
@@ -180,11 +268,40 @@ font-size: 18px;
 
 
 @media(max-width: 320px) and (min-width: 300px){
+	.titulo{
+		width:100%;
+		display: inline-block;
+	}
+		
+		.titulo h1{
+		text-align: center;
+		  margin-top: 20px;
+		  margin-left: 30px;
+		display: inline-block;
+		
+		margin-bottom: 5px;
+		}
+		
+		.titulo img{
+		
+			width: 200px;	
+		
+			margin-left: 80px;
+		}
+
+
+
+
+
+	
+	
 	.container{
 		display: grid;
 		grid-template-columns: 1fr;
 	
 	}
+
+
 
 body nav{
 	width: 100%;
