@@ -39,7 +39,8 @@ margin-bottom: 5px;
 }
 
 
-.container{
+
+.container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr ;
 	justify-content: center;
@@ -66,15 +67,35 @@ margin: 5px;
 	color:black;
 }
 
-.container p{
-	margin: 3px;
+.container div p{
+	margin: 9px;
 	color:black;
+	font-size: 20px;
 }
 
 .container div img:hover {
 	border: solid yellow 3px;
 
 }
+
+.container .img{
+	margin-top: 37px;
+}
+.container .img ol{
+	margin-left: 10px;
+	font-size: 20px;
+}
+.container .img-1{
+	margin-top: 47px;
+}
+.container .img-1 ol li{
+	font-size: 20px;
+
+}
+.container .img-1 h2{
+text-align: center;
+}
+
 .foter{
 	background-color: skyblue;
 	display: grid;
@@ -189,6 +210,11 @@ container{
 		margin: 10px;
 	
 	}
+	.container .img{
+		margin-top:1px;
+	}
+	
+
 }
 @media(max-width: 953px) and (min-width: 300px){
 .header p{
@@ -324,5 +350,4 @@ body nav{
 	
 
 }
-
 
