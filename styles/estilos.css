@@ -9,7 +9,7 @@
 body{
 
 	
-background-color: #1DE9B6	;
+background-color:#03A9F4;
 }
 
 .titulo{
@@ -21,7 +21,7 @@ text-align: justify;
   margin-top: 20px;
   margin-left: 360px;
 display: inline-block;
-
+color: #FFFFFF;
 margin-bottom: 5px;
 }
 
@@ -47,14 +47,15 @@ margin-bottom: 5px;
 padding: 25px;
 
 
-color:black;
+color:#FFFFFF;
 
 grid-row-gap: 2em;
 border-collapse: collapse black solid 1px;
 margin: 100px;
 }
-
-
+.container .img ol {
+	color: black;
+}
 .container div img {
 	width: 330px;
 	border: solid 5px black;
@@ -64,7 +65,7 @@ margin: 5px;
 
 .container h1{
 	margin-left: 60px;
-	color:black;
+	color:#FFFFFF;
 }
 
 .container div p{
@@ -78,6 +79,7 @@ margin: 5px;
 
 }
 
+
 .container .img{
 	margin-top: 37px;
 }
@@ -90,7 +92,7 @@ margin: 5px;
 }
 .container .img-1 ol li{
 	font-size: 20px;
-
+    color:black;
 }
 .container .img-1 h2{
 text-align: center;
