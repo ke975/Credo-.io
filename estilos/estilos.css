@@ -159,7 +159,7 @@ padding: 0px;
     font-family: 'Roboto', sans-serif;
    text-align: left;
   padding: 10px;
-  margin-left: 550px;
+  margin-left: 400px;
 }
 
 
@@ -187,4 +187,60 @@ padding: 0px;
      text-align: left;
     padding: 10px;
     margin-left: 550px;
+}
+
+.Misvalores .mv1{
+    width: 400px;
+    margin-top: px;
+    margin-left: -850px;
+    margin-bottom: 5px;
+
+}
+
+.Misvalores .mv{
+    margin-top: 95px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+.Misvalores .Mv1{
+    font-size: 15px;
+    color: black;
+   margin-top: -240px;
+      font-family: 'Roboto', sans-serif;
+     text-align: left;
+    padding: 10px;
+    margin-left: 400px;
+
+}
+
+
+.Mismetas .mt1{
+    width: 400px;
+    margin-top: px;
+    margin-left: -850px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.Mismetas .mt{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Mismetas .metas1{
+    font-size: 15px;
+    color: black;
+   margin-top: -220px;
+      font-family: 'Roboto', sans-serif;
+     text-align: left;
+    padding: 10px;
+    margin-left: 400px;
+
 }
