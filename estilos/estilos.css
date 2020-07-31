@@ -106,12 +106,85 @@ height: 420px;
     transition-delay: 0.3s;
 }
 .mentorres{
+margin: 0px;
+padding: 0px;
 
 }
 
 
 .mentorres .mentor{
-    width: 300px;
-    margin-top: 700px;
-  
+    width: 400px;
+    margin-top: 25px;
+    margin-left: -850px;
+    margin-bottom: 0px;
+    
+}
+
+.mentorres .m1{
+    margin-top: 220px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ .mentorres div .p{
+    font-size: 15px;
+  color: black;
+ margin-top: -250px;
+    font-family: 'Roboto', sans-serif;
+   text-align: left;
+  padding: 15px;
+}
+
+.Fortalezas .for1{
+    width: 400px;
+    margin-top: px;
+    margin-left: -850px;
+    margin-bottom: 15px;
+
+}
+
+.Fortalezas .f1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+.mentorres div .p1{
+    font-size: 15px;
+  color: black;
+ margin-top: -250px;
+    font-family: 'Roboto', sans-serif;
+   text-align: left;
+  padding: 10px;
+  margin-left: 550px;
+}
+
+
+.Debilidades .for1{
+    width: 400px;
+    margin-top: px;
+    margin-left: -850px;
+    margin-bottom: 15px;
+
+}
+
+.Debilidades .f1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Debilidades .p1{
+    font-size: 15px;
+    color: black;
+   margin-top: -250px;
+      font-family: 'Roboto', sans-serif;
+     text-align: left;
+    padding: 10px;
+    margin-left: 550px;
 }
