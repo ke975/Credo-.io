@@ -6,6 +6,7 @@
 header{
     text-align: center;
     width: 100%;
+    color: white;
 }
 
 section{
@@ -32,12 +33,13 @@ font-size: 25px;
 font-family: 'Roboto', sans-serif;
 }
 
+
 .MisCreencias{
 text-align: center;
 margin-top: 250px;
 font-size: 25pt;
 font-family: 'Roboto', sans-serif;
-
+color: white;
 }
 
 #container{
