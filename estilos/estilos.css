@@ -108,7 +108,7 @@ height: 420px;
 }
 
 body{
-    background-color:#0d3966   ;
+    background-color:#0994f1d0    ;
 }
 .mentorres .mentor{
 margin: 0px;
@@ -136,11 +136,12 @@ padding: 0px;
 
  .mentorres div .p{
     font-size: 15px;
-  color: black;
+  color:white;
  margin-top: -300px;
     font-family: 'Roboto', sans-serif;
    text-align: left;
   padding: 15px;
+
 }
 
 .Fortalezas .for1{
@@ -160,12 +161,13 @@ padding: 0px;
 }
 .mentorres div .p1{
     font-size: 15px;
-  color: black;
+  
  margin-top: -250px;
     font-family: 'Roboto', sans-serif;
    text-align: left;
   padding: 10px;
   margin-left: 400px;
+  color: white;
 }
 
 
@@ -187,7 +189,7 @@ padding: 0px;
 
 .Debilidades .p1{
     font-size: 15px;
-    color: black;
+    color: white;
    margin-top: -250px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
@@ -212,7 +214,7 @@ padding: 0px;
 }
 .Misvalores .Mv1{
     font-size: 15px;
-    color: black;
+    color:white;
    margin-top: -240px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
@@ -242,7 +244,7 @@ padding: 0px;
 
 .Mismetas .metas1{
     font-size: 15px;
-    color: black;
+    color: white;
    margin-top: -220px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
@@ -269,7 +271,7 @@ padding: 0px;
 
 .MisEnergizantes .mge2{
     font-size: 15px;
-    color: black;
+    color: white;
    margin-top: -300px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
@@ -296,7 +298,7 @@ padding: 0px;
 
 .Micancion .mge2{
     font-size: 15px;
-    color: black;
+    color:white;
    margin-top: -230px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
