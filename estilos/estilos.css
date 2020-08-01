@@ -105,9 +105,14 @@ height: 420px;
     margin-top:-40px ;
     transition-delay: 0.3s;
 }
-.mentorres{
+
+body{
+    background-color: #2ECC71;
+}
+.mentorres .mentor{
 margin: 0px;
 padding: 0px;
+
 
 }
 
