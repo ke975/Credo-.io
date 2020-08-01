@@ -5,6 +5,7 @@
 
 header{
     text-align: center;
+    width: 100%;
 }
 
 section{
@@ -374,8 +375,9 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 #baner .baner{
-    max-width: 100%;
+  
     font-size: 15px;
+    
     font-family: 'Roboto', sans-serif;
 }
 
