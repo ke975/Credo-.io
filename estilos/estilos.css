@@ -131,7 +131,7 @@ padding: 0px;
  .mentorres div .p{
     font-size: 15px;
   color: black;
- margin-top: -250px;
+ margin-top: -300px;
     font-family: 'Roboto', sans-serif;
    text-align: left;
   padding: 15px;
@@ -242,5 +242,295 @@ padding: 0px;
      text-align: left;
     padding: 10px;
     margin-left: 400px;
+
+}
+
+.MisEnergizantes .mg1{
+    width: 400px;
+    margin-top: px;
+    margin-left: -850px;
+    margin-bottom: 20px;
+
+}
+
+.MisEnergizantes .mg{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.MisEnergizantes .mge2{
+    font-size: 15px;
+    color: black;
+   margin-top: -300px;
+      font-family: 'Roboto', sans-serif;
+     text-align: left;
+    padding: 10px;
+    margin-left: 400px;
+
+}
+
+.Micancion .mg1{
+    width: 400px;
+    margin-top: px;
+    margin-left: -850px;
+    margin-bottom: 20px;
+
+}
+
+.Micancion .mg{
+    margin-top: 140px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Micancion .mge2{
+    font-size: 15px;
+    color: black;
+   margin-top: -230px;
+      font-family: 'Roboto', sans-serif;
+     text-align: left;
+    padding: 10px;
+    margin-left: 400px;
+
+}
+
+
+@media (max-width:1024px)and (min-width:720px)
+{
+
+    .mentorres{
+        max-width: 100%;
+    }
+.mentorres .mentor{
+    margin-left: -600px;
+    margin-top: 25px;
+}
+
+.mentorres .p{
+    margin-left:380px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+header{
+    text-align: center;
+    max-width: 100%;
+}
+#baner .baner{
+    max-width: 100%;
+}
+
+#baner .mifoto{
+ margin-left: 350px;
+}
+
+#baner p{
+margin-top: -150px;
+margin-left: 300px;
+}
+}
+
+
+@media (max-width:360px)and (min-width:320px)
+{
+
+    .mentorres{
+        max-width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+    .mentorres .m1{
+      text-align: center;
+    }
+.mentorres .mentor{
+    margin-left: -20px;
+    margin-top: 20px;
+    max-width: 100%;
+   
+ 
+}
+
+.mentorres div>.p{
+   text-align: justify;
+   margin-left: -25px;
+   margin-top: -15px;
+   font-size: 12px;
+
+}
+header{
+    text-align: center;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#baner .baner{
+    max-width: 100%;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#baner .mifoto{
+ margin-left: 50px;
+ width: 300px;
+}
+
+#baner p{
+margin-top: -150px;
+margin-left: 50px;
+font-size: 15px;
+text-align: justify;
+}
+.mentorres .m1{
+    text-align: center;
+    margin-left: 20px;
+  }
+  .Fortalezas .f1{
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 100%;
+   
+  
+  }
+
+.Fortalezas .for1{
+  margin-left: -20px;
+  margin-top: 20px;
+  max-width: 100%;
+ 
+
+}
+
+.mentorres div>.p1{
+ text-align: justify;
+ margin-left: -25px;
+ margin-top: -15px;
+ font-size: 12px;
+
+}
+.Debilidades .f1{
+    margin-left: 20px;
+    margin-top: 200px;
+    max-width: 100%;
+   
+  
+  }
+
+.Debilidades .for1{
+  margin-left: -20px;
+  margin-top: 20px;
+  max-width: 100%;
+ 
+
+}
+
+.Debilidades div>.p1{
+ text-align: justify;
+ margin-left: -25px;
+ margin-top: -10px;
+ font-size: 12px;
+
+}
+
+
+.Misvalores .mv{
+    margin-left: 20px;
+    margin-top: 200px;
+    max-width: 100%;
+   
+  
+  }
+
+.Misvalores .mv1{
+  margin-left: -20px;
+  margin-top: 20px;
+  max-width: 100%;
+ 
+
+}
+
+.Misvalores div>.Mv1{
+ text-align: justify;
+ margin-left: -25px;
+ margin-top: -10px;
+ font-size: 12px;
+
+}
+
+.Mismetas .mt{
+    margin-left: 20px;
+    margin-top: 380px;
+    max-width: 100%;
+   
+  
+  }
+
+.Mismetas .mt1{
+  margin-left: -20px;
+  margin-top: 10px;
+  max-width: 100%;
+ 
+
+}
+
+.Mismetas div>.metas1{
+ text-align: justify;
+ margin-left: -25px;
+ margin-top: -30px;
+ font-size: 12px;
+
+}
+.MisEnergizantes .mg{
+    margin-left: 20px;
+    margin-top: 140px;
+    max-width: 100%;
+   
+  
+  }
+
+.MisEnergizantes .mg1{
+  margin-left: -20px;
+  margin-top: 10px;
+  max-width: 100%;
+ 
+
+}
+
+.MisEnergizantes div>.mge2{
+ text-align: justify;
+ margin-left: -25px;
+ margin-top: -30px;
+ font-size: 12px;
+
+}
+
+.Micancion .mg{
+    margin-left: 20px;
+    margin-top: 320px;
+    max-width: 100%;
+   
+  
+  }
+
+.Micancion .mg1{
+  margin-left: -20px;
+  margin-top: 10px;
+  max-width: 100%;
+ 
+
+}
+
+.Micancion div> .mge2{
+ text-align: justify;
+ margin-left: -25px;
+ margin-top: -30px;
+ font-size: 12px;
+
+}
+
 
 }
