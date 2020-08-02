@@ -7,6 +7,7 @@ header{
     text-align: center;
     width: 100%;
     color: white;
+    background-color: #808080;
 }
 
 section{
@@ -40,16 +41,21 @@ margin-top: 250px;
 font-size: 25pt;
 font-family: 'Roboto', sans-serif;
 color: white;
+background-color:  #808080;
 }
 
 #container{
-    background-color:teal;
+ background-color: #149ddd;
     display: flex;
     flex-direction: row;
+
+}
+.section-bg{
+    background-color:#f5f8fd;
 }
 
 #container{
-    margin-top: 20px;
+    margin-top: 0px;
     text-align: center;
     position: relative;
     justify-content: center;
@@ -110,7 +116,7 @@ height: 420px;
 }
 
 body{
-    background-color:#0070c2    ;
+        ;
 }
 .mentorres .mentor{
 margin: 0px;
@@ -138,12 +144,13 @@ padding: 0px;
 
  .mentorres div .p{
     font-size: 15px;
-  color:white;
+  color:black;
  margin-top: -300px;
     font-family: 'Roboto', sans-serif;
-   text-align: left;
+   text-align: justify;
   padding: 15px;
-
+margin-bottom: 0;
+line-height: 25px;
 }
 
 .Fortalezas .for1{
@@ -161,15 +168,17 @@ padding: 0px;
     margin-left: 80px;
     font-family: 'Roboto', sans-serif;
 }
-.mentorres div .p1{
+.Fortalezas div .p1{
     font-size: 15px;
   
  margin-top: -250px;
     font-family: 'Roboto', sans-serif;
    text-align: left;
   padding: 10px;
+
   margin-left: 400px;
-  color: white;
+  color:black;
+  margin-left: 550px;
 }
 
 
@@ -191,7 +200,7 @@ padding: 0px;
 
 .Debilidades .p1{
     font-size: 15px;
-    color: white;
+    color:black;
    margin-top: -250px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
@@ -216,7 +225,7 @@ padding: 0px;
 }
 .Misvalores .Mv1{
     font-size: 15px;
-    color:white;
+    color:black;
    margin-top: -240px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
@@ -246,7 +255,7 @@ padding: 0px;
 
 .Mismetas .metas1{
     font-size: 15px;
-    color: white;
+    color: black;
    margin-top: -220px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
@@ -273,13 +282,13 @@ padding: 0px;
 
 .MisEnergizantes .mge2{
     font-size: 15px;
-    color: white;
+    color: black;
    margin-top: -300px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
     padding: 10px;
     margin-left: 400px;
-
+    line-height: 25px;
 }
 
 .Micancion .mg1{
@@ -300,13 +309,13 @@ padding: 0px;
 
 .Micancion .mge2{
     font-size: 15px;
-    color:white;
+    color:black;
    margin-top: -230px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
     padding: 10px;
     margin-left: 400px;
-
+    line-height: 25px;
 }
 
 
