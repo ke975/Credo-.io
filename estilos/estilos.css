@@ -151,6 +151,7 @@ padding: 0px;
   padding: 15px;
 margin-bottom: 0;
 line-height: 25px;
+margin-left: 400px;
 }
 
 .Fortalezas .for1{
@@ -176,9 +177,9 @@ line-height: 25px;
    text-align: left;
   padding: 10px;
 
-  margin-left: 400px;
+  
   color:black;
-  margin-left: 550px;
+  margin-left: 430px;
 }
 
 
@@ -205,12 +206,12 @@ line-height: 25px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
     padding: 10px;
-    margin-left: 550px;
+    margin-left: 430px;
 }
 
 .Misvalores .mv1{
     width: 400px;
-    margin-top: px;
+    margin-top:-5px;
     margin-left: -850px;
     margin-bottom: 5px;
 
@@ -226,12 +227,12 @@ line-height: 25px;
 .Misvalores .Mv1{
     font-size: 15px;
     color:black;
-   margin-top: -240px;
+   margin-top: -220px;
       font-family: 'Roboto', sans-serif;
-     text-align: left;
+     text-align: justify;
     padding: 10px;
-    margin-left: 400px;
-
+    margin-left: 420px;
+    line-height: 18px;
 }
 
 
@@ -260,7 +261,7 @@ line-height: 25px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
     padding: 10px;
-    margin-left: 400px;
+    margin-left: 420px;
 
 }
 
@@ -310,7 +311,7 @@ line-height: 25px;
 .Micancion .mge2{
     font-size: 15px;
     color:black;
-   margin-top: -230px;
+   margin-top: -390px;
       font-family: 'Roboto', sans-serif;
      text-align: left;
     padding: 10px;
@@ -356,7 +357,7 @@ margin-left: 300px;
 }
 
 
-@media (max-width:360px)and (min-width:320px)
+@media (max-width:360px)and (min-width:360px)
 {
 
     .mentorres{
@@ -410,7 +411,7 @@ text-align: justify;
     margin-left: 20px;
   }
   .Fortalezas .f1{
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 20px;
     max-width: 100%;
    
@@ -427,7 +428,7 @@ text-align: justify;
 
 .mentorres div>.p1{
  text-align: justify;
- margin-left: -25px;
+ margin-left: -20px;
  margin-top: -15px;
  font-size: 12px;
 
@@ -450,7 +451,7 @@ text-align: justify;
 
 .Debilidades div>.p1{
  text-align: justify;
- margin-left: -25px;
+ margin-left: -20px;
  margin-top: -10px;
  font-size: 12px;
 
@@ -475,10 +476,10 @@ text-align: justify;
 
 .Misvalores div>.Mv1{
  text-align: justify;
- margin-left: -25px;
+ margin-left: -20px;
  margin-top: -10px;
  font-size: 12px;
-
+line-height: 15px;
 }
 
 .Mismetas .mt{
@@ -499,7 +500,7 @@ text-align: justify;
 
 .Mismetas div>.metas1{
  text-align: justify;
- margin-left: -25px;
+ margin-left: -20px;
  margin-top: -30px;
  font-size: 12px;
 
@@ -522,7 +523,7 @@ text-align: justify;
 
 .MisEnergizantes div>.mge2{
  text-align: justify;
- margin-left: -25px;
+ margin-left: -20px;
  margin-top: -30px;
  font-size: 12px;
 
@@ -530,7 +531,7 @@ text-align: justify;
 
 .Micancion .mg{
     margin-left: 20px;
-    margin-top: 320px;
+    margin-top: 500px;
     max-width: 100%;
    
   
@@ -538,7 +539,7 @@ text-align: justify;
 
 .Micancion .mg1{
   margin-left: -20px;
-  margin-top: 10px;
+  margin-top: 30px;
   max-width: 100%;
  
 
@@ -546,8 +547,8 @@ text-align: justify;
 
 .Micancion div> .mge2{
  text-align: justify;
- margin-left: -25px;
- margin-top: -30px;
+ margin-left: -20px;
+ margin-top: -5px;
  font-size: 12px;
 
 }
