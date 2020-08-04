@@ -7,7 +7,7 @@ header{
     text-align: center;
     width: 100%;
     color: white;
-    background-color: #808080;
+    background-color:#149ddd;
 }
 
 section{
@@ -41,11 +41,11 @@ margin-top: 250px;
 font-size: 25pt;
 font-family: 'Roboto', sans-serif;
 color: white;
-background-color:  #808080;
+background-color:  #149ddd;
 }
 
 #container{
- background-color: #149ddd;
+ background-color: teal;
     display: flex;
     flex-direction: row;
 
@@ -115,9 +115,7 @@ height: 420px;
     transition-delay: 0.3s;
 }
 
-body{
-        ;
-}
+
 .mentorres .mentor{
 margin: 0px;
 padding: 0px;
