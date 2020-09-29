@@ -8,6 +8,7 @@ header{
     width: 100%;
     color: white;
     background-color:#149ddd;
+    position:fixed;
 }
 
 section{
