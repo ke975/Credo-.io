@@ -9,6 +9,7 @@ header{
     color: white;
     background-color:#149ddd;
     position:fixed;
+    overflow:hidden;
 }
 
 section{
